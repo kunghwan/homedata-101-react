@@ -1,0 +1,29 @@
+div .label {
+  font-size: 10px;
+  color: var(--gray2);
+  margin-bottom: 10px;
+}
+input.input {
+  border-radius: 100px;
+  background: transparent;
+  padding: 10px;
+  /* margin: 10px; */
+  outline: none;
+  caret-color: var(--gray4);
+}
+input.input:focus {
+  border-color: var(--green6);
+}
+input.input::placeholder {
+  color: white;
+}
+div.start_l {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button.start {
+  border-radius: 100px;
+  background: red;
+  padding: 12px;
+}

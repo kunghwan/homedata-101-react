@@ -1,0 +1,33 @@
+div.detail {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background: var(--gray8);
+  margin-top: 20px;
+  transition: all 0.2s;
+}
+div.detail:hover {
+  background: var(--gray6);
+  transform: scale(1.03);
+}
+div.detail:hover .bt1 {
+  border: 1px solid var(--gray9);
+}
+p.txt {
+  padding-top: 10px;
+}
+p.txts {
+  padding-top: 5px;
+}
+div.bTT {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 10px;
+}
+button.bt1 {
+  border-radius: 100px;
+  border: 1px solid var(--gray6);
+  padding: 10px;
+  background-color: var(--gray9);
+}
