@@ -1,0 +1,29 @@
+.cal {
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  background: whitesmoke;
+  padding: 10px;
+}
+.AAA {
+  border: 1px solid black;
+}
+h4 {
+  color: black;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: var(--gray5);
+  color: black;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  color: black;
+  border: 2px solid black;
+}

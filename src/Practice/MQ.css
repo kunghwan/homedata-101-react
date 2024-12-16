@@ -1,0 +1,27 @@
+#mq {
+  width: 200px;
+  height: 300px;
+  background: var(--blue5);
+  transition: all 0.3s;
+}
+@media all and (min-width: 320px) {
+  #mq {
+    background-color: var(--pink5);
+    width: 50px;
+    height: 30px;
+  }
+}
+@media all and(min-width:640px) {
+  #mq {
+    background-color: var(--yellow5);
+    width: 50px;
+    height: 30px;
+  }
+}
+@media all and (min-width: 1024px) {
+  #mq {
+    background-color: var(--green5);
+    width: 500px;
+    height: 500px;
+  }
+}
