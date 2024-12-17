@@ -1,36 +1,33 @@
-.fa {
+#fa {
   padding: 20px;
   row-gap: 10px;
 }
-.fa ul {
+#fa ul {
+  display: flex;
+  flex-direction: column;
   row-gap: 10px;
+}
+#fa ul li {
   display: flex;
   flex-direction: column;
 }
-.fa button {
+#fa ul li button {
+  padding: 20px;
+  border-radius: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 2px solid;
-  padding: 30px;
-  row-gap: 10px;
-  border-radius: 15px;
-  width: 100%;
+  transition: all 0.3s;
 }
-p.faq {
-  border-radius: 15px;
-  border: 1px solid red;
-  padding: 20px;
+#fa ul li button:hover {
+  background: var(--gray6);
 }
-a {
-  text-decoration: underline;
-  padding: 10px 0px;
-}
-.fa div {
-  border: 1px solid var(--gray6);
-  background: 1px solid var(--gray3);
+#fa div {
+  border: 1px solid;
   border-radius: 20px;
   padding: 20px;
   margin-top: 10px;
-  row-gap: 20px;
+}
+#fa div a {
+  text-decoration: underline;
 }

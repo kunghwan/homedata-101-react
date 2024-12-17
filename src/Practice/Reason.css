@@ -1,24 +1,24 @@
-div.re {
+#re {
   padding: 20px;
   row-gap: 10px;
 }
-.re ul {
+#re ul {
+  row-gap: 10px;
   display: flex;
   flex-direction: column;
-
-  row-gap: 10px;
 }
-.re div {
+#re ul div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 2px solid;
-  padding: 30px;
+  border: 1px solid;
   border-radius: 20px;
+  padding: 30px;
+  background: var(--gray7);
 }
-.re div:hover {
-  background-color: var(--gray5);
+#re ul div:hover {
+  background: var(--gray5);
 }
-.re div svg {
+#re ul div svg {
   font-size: 30px;
 }
