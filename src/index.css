@@ -137,32 +137,34 @@
   padding: 0;
   list-style-type: none;
 }
+
 button,
 a {
   cursor: pointer;
   border: none;
   color: inherit;
+  /* 상속  */
   text-decoration: none;
   background-color: transparent;
 }
-body {
-  background-color: var(--gray9);
-  color: var(--gray0);
+button:hover,
+a:hover {
+  opacity: 0.8;
+}
+button:active,
+a:active {
+  opacity: 0.5;
 }
 div,
 section,
 article,
-button,
 a,
-footer,
-header {
+header,
+footer {
   display: flex;
-}
-
-div,
-section,
-article,
-footer,
-header {
   flex-direction: column;
+}
+body {
+  background: var(--gray9);
+  color: var(--gray0);
 }

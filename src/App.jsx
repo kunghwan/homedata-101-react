@@ -3,8 +3,12 @@ import Header from "./Practice/Header";
 import Gal from "./Practice/Gal";
 import Ninput from "./Practice/Ninput";
 import Detail from "./Practice/Detail";
-import Cal from "./Practice/Cal";
-import MQ from "./Practice/MQ";
+import Poster from "./Practice/Poster";
+import Reason from "./Practice/Reason";
+import FAQ from "./Practice/FAQ";
+import LB from "./Practice/LB";
+// import Cal from "./Practice/Cal";
+// import MQ from "./Practice/MQ";
 // const name = "ykh";
 // console.log(name);
 // let age = 25;
@@ -14,14 +18,18 @@ import MQ from "./Practice/MQ";
 const App = () => {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <main>
         <Gal />
         <Ninput />
         <Detail />
-      </main> */}
-      {/* <Cal /> */}
-      <MQ />
+        <Poster />
+        <Poster />
+        <Poster />
+        <Reason />
+        <FAQ />
+        <LB />
+      </main>
     </div>
   );
 };

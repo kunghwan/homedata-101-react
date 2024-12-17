@@ -1,0 +1,28 @@
+#pos {
+  padding: 20px;
+  row-gap: 10px;
+}
+#pos ul {
+  display: flex;
+  column-gap: 10px;
+  /* border: 2px solid; */
+}
+#pos ul :hover {
+  transform: scale(1.01);
+}
+#pos ul li {
+  position: relative;
+  transition: all 0.3s;
+}
+#pos ul li img {
+  border-radius: 20px;
+  width: 240px;
+  height: 320px;
+  border: 1px solid;
+}
+#pos ul p {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  transform: translate(130%, -20%);
+}

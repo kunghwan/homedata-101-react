@@ -14,14 +14,13 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 #gal .wrap img {
-  border: 2px solid;
+  border: 2px solid royalblue;
   border-radius: 20px;
 }
 
 button.left {
   position: absolute;
   border-radius: 100px;
-
   height: 70px;
   padding: 20px 5px;
   left: 0;
@@ -31,7 +30,10 @@ button.left {
   background: var(--gray7);
   border: 1px solid var(--gray1);
 }
+
 button.right {
+  display: flex;
+  align-items: center;
   position: absolute;
   border-radius: 100px;
   color: var(--gray5);
@@ -43,6 +45,7 @@ button.right {
   background: var(--gray7);
   border: 1px solid var(--gray1);
 }
+
 div.txts {
   position: absolute;
   bottom: 10px;
