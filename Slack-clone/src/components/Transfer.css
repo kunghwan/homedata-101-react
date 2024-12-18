@@ -1,0 +1,25 @@
+#tras {
+  flex-direction: row;
+  background-color: var(--blue7);
+  color: var(--gray2);
+  padding: 20px;
+  font-size: 0.8rem;
+}
+
+#tras a {
+  flex-direction: column;
+  row-gap: 20px;
+  flex: 1;
+}
+#tras p {
+  font-size: 12px;
+}
+#tras a div {
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+}
+#tras button {
+  padding: 5px;
+  align-items: center;
+}

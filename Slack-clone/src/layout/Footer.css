@@ -1,0 +1,78 @@
+#footer {
+  margin-top: 20px;
+}
+#footer div:nth-child(1) {
+  align-items: center;
+}
+#footer .local button span {
+  font-weight: 900;
+}
+#footer .local button svg {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+#footer div:nth-child(2) {
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  column-gap: 20px;
+  font-size: 20px;
+}
+#footer div:nth-child(2) svg {
+  font-size: 20px;
+}
+#footer div:nth-child(2) svg:hover {
+  color: var(--blue5);
+}
+#footer div:nth-child(3) {
+  border: 1px solid;
+  margin-top: 20px;
+  border-left: none;
+  border-right: none;
+  border-color: var(--gray2);
+}
+#footer div:nth-child(3) button {
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+#footer div:nth-child(3) button:hover {
+  padding: 40px;
+  color: var(--blue5);
+}
+#footer div:nth-child(4) {
+  padding: 10px;
+}
+#footer div:nth-child(4) > button {
+  font-size: 50px;
+  padding: 10px;
+}
+#footer div:nth-child(4) .close {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+  padding: 10px;
+  row-gap: 10px;
+}
+#footer div:nth-child(4) .download {
+  color: var(--blue7);
+  column-gap: 5px;
+}
+#footer div:nth-child(4) > button:hover {
+  color: var(--blue7);
+}
+#footer div:nth-child(4) span {
+  font-size: 12px;
+  color: var(--gray6);
+}
+#footer .close button:hover {
+  color: var(--blue5);
+}
+#footer .close .download:hover {
+  text-decoration: underline;
+}
