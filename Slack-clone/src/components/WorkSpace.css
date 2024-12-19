@@ -19,7 +19,7 @@
 }
 .box .email {
   font-size: 18px;
-  padding: 20px;
+  padding: 30px 20px;
   background: var(--blue1);
 }
 .box img {
@@ -28,16 +28,62 @@
   padding: 20px;
 }
 .box .box_b {
-  border: 1px solid red;
   flex-direction: row;
 }
 .box .data {
+  border: 1px solid;
   padding: 20px 0px;
-  row-gap: 20px;
+  row-gap: 10px;
   padding-right: 10px;
 }
+
 .box .mem {
   display: flex;
   flex-direction: row;
   column-gap: 10px;
+  align-items: center;
+}
+.box .mem p {
+  margin-right: 10px;
+  font-size: 18px;
+}
+button.ud {
+  border: 1px solid;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  background: var(--blue9);
+  color: white;
+  margin: 0 15px;
+  margin-bottom: 10px;
+}
+button.ue {
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  color: var(--blue9);
+  padding: 20px;
+}
+div.box_1 {
+  border: 5px solid var(--gray4);
+  border-radius: 10px;
+  padding: 20px;
+  row-gap: 10px;
+}
+
+div.box_1 button {
+  border: 1px solid var(--blue7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+
+  justify-content: center;
+  color: var(--blue5);
+}
+div.box_1 button:hover {
+  border: 2px solid;
+}
+
+div.box_1 img {
+  border: 1px solid;
 }
