@@ -1,0 +1,104 @@
+div#client .h {
+  /* 중간에 가운데에 갭 10px */
+  row-gap: 10px;
+
+  border-bottom: 1px solid var(--gray2);
+  padding: 10px;
+  /* 바닥 부분에 패딩 0으로 만들기 */
+  padding-bottom: 0;
+}
+
+div#client .h .top {
+  /* 좌우로 나란히, 양 옆으로 찢기 */
+
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: space-between;
+}
+
+div#client .h .top,
+div#client .h .btm,
+div#client .h .top div {
+  flex-direction: row;
+}
+
+div#client .h .top div {
+  /* 둘 사이 갈라놓기 10px */
+  column-gap: 10px;
+}
+
+div#client .h .tt {
+  border: 1px solid;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+div#client .h .tt p {
+  /* 3가지 속성 넣기 */
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  overflow: hidden;
+}
+
+div#client .h .top button {
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 0 5px;
+  min-width: 30px;
+}
+
+div#client .h .top button:hover {
+  background-color: var(--gray1);
+}
+
+div#client .h .top button.b {
+  border: 1px solid var(--gray4);
+}
+
+div#client .h .top button.b .bb {
+  border-right: 1px solid var(--gray4);
+  height: 100%;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+div#client .h .top button.b svg {
+  width: 20px;
+}
+
+div#client .h .btm button {
+  height: 40px;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+div#client .h .btm .msg {
+  border-bottom: 2px solid var(--blue9);
+}
+
+/* 마우스 올렸을 때 bc => gray2 */
+div#client .h .btm .msg:hover {
+  background-color: var(--gray1);
+}
+
+div#client .h .btm .m svg {
+  font-size: 0.6rem;
+}
+
+div#client .h .btm .p span {
+  display: flex;
+  padding: 4px;
+  border-radius: 100px;
+  font-size: 1.2rem;
+}
+
+/* .p 클래스의 버튼에 마우스를 올렸을 때, span 값에 백그라운드컬러 적용 */
+div#client .h .btm .p:hover span {
+  background-color: var(--gray2);
+}

@@ -3,6 +3,14 @@ header#client div {
   flex-direction: row;
   column-gap: 10px;
 }
+header#client {
+  height: 30px;
+  z-index: 10000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
 
 header#client ul {
   flex-direction: row;

@@ -1,0 +1,8 @@
+div#client .d {
+  flex: 1;
+  /* overflow-y: auto; */
+}
+
+div#client .d:hover {
+  background-color: var(--gray1);
+}

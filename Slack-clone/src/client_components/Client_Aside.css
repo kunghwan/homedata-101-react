@@ -1,0 +1,128 @@
+main#client {
+  height: calc(100vh - 50px);
+  width: calc(100vw - 50px);
+  background: var(--gray0);
+  margin-top: 50px;
+  margin-left: 50px;
+
+  display: flex;
+}
+aside#client {
+  background: var(--blue7);
+  color: white;
+  border-top-left-radius: 10px;
+  height: 100%;
+  z-index: 10000;
+}
+aside#client button:hover {
+  background-color: var(--blue7);
+}
+
+aside#client .top {
+  row-gap: 20px;
+  border-bottom: 1px solid;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+aside#client .wrap {
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+aside#client .top .wrap ul {
+  display: flex;
+  column-gap: 10px;
+}
+aside#client .wrap button {
+  column-gap: 10px;
+}
+aside#client .wrap .dataone {
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  align-items: center;
+}
+aside#client .wrap .dataone p {
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+}
+aside#client .top .wrap ul button {
+  width: 30px;
+  height: 30px;
+}
+aside#client button {
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+aside#client button svg {
+  font-size: 20px;
+}
+aside#client .top .trial {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+  column-gap: 10px;
+  color: var(--blue8);
+  height: auto;
+  background-color: white;
+}
+aside#client .top .trial div {
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+}
+aside#client .btm {
+  padding: 10px;
+  row-gap: 30px;
+}
+aside#client .btm button {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 0 10px;
+  column-gap: 10px;
+}
+aside#client .btm .tt {
+  width: auto;
+}
+aside#client .btm .a {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+aside#client .btm .tt .h {
+  display: none;
+}
+aside#client .btm .tt:hover .h {
+  display: unset;
+}
+aside#client .btm .p div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  align-items: center;
+  background-color: black;
+}
+aside#client .btm .p span {
+  position: absolute;
+  bottom: -1px;
+  right: -4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: var(--green6);
+  border: 2px solid var(--blue8);
+}
+aside#client button:hover {
+  background-color: var(--blue9);
+}
+@media all and (max-width: 600px) {
+  aside#client {
+    width: 180px;
+  }
+}

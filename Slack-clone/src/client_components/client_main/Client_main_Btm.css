@@ -1,0 +1,45 @@
+#btm_box {
+  border-radius: 10px;
+  margin-left: 15px;
+  border: 1px solid;
+  object-fit: cover;
+}
+#btm_box div:nth-child(1) {
+  flex-direction: row;
+  background: var(--gray1);
+}
+#btm_box ul:nth-child(1) {
+  flex-direction: row;
+  display: flex;
+  padding: 10px;
+  column-gap: 10px;
+}
+#btm_box ul:nth-child(2) {
+  flex-direction: row;
+  display: flex;
+  padding: 10px;
+  column-gap: 10px;
+  border-left: 1px solid;
+  border-color: var(--gray5);
+}
+
+#btm_box div:nth-child(3) {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#btm_box div:nth-child(3) li button {
+  font-size: 20px;
+}
+#btm_box div:nth-child(3) .boxs {
+  border: 1px solid var(--gray1);
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: var(--green9);
+  color: white;
+  font-size: 20px;
+}
+#btm_box div:nth-child(2) p {
+  padding: 15px 2px;
+  font-size: 14px;
+}
